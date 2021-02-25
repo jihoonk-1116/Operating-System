@@ -1,0 +1,55 @@
+-- Chihoon Kim Project4	St: 23694627
+
+Allocator) STAT
+
+Addresses [0 : End] Free 
+
+Allocator) RQ P0 262144 W
+
+Allocator) RQ P1 262144 W
+
+Allocator) RQ P2 262200 W
+
+Allocator) STAT
+
+Addresses [0 : 262144]  Process P0 
+Addresses [262145 : 524289]  Process P1 
+Addresses [524290 : 786490]  Process P2 
+Addresses [786491 - End] Free
+
+Allocator) RL P1
+
+Allocator) RQ P3 200000 W
+
+Allocator) STAT
+
+Addresses [0 : 262144]  Process P0 
+Addresses [262145 : 462145]  Process P3 
+Addresses [462146 : 524289] Free
+Addresses [524290 : 786490]  Process P2 
+Addresses [786491 - End] Free
+
+Allocator) RQ P4 200000 W
+
+Allocator) STAT
+
+Addresses [0 : 262144]  Process P0 
+Addresses [262145 : 462145]  Process P3 
+Addresses [462146 : 524289] Free
+Addresses [524290 : 786490]  Process P2 
+Addresses [786491 : 986491]  Process P4 
+Addresses [986492 - End] Free
+
+Allocator) C
+
+Allocator) STAT
+
+Addresses [0 : 262144]  Process P0 
+Addresses [262145 : 462145]  Process P3 
+Addresses [462146 : 724346]  Process P2 
+Addresses [724347 : 924347]  Process P4 
+Addresses [924348 - End] Free
+
+Allocator) QUIT
+
+-- End

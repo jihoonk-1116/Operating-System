@@ -1,0 +1,74 @@
+
+Chihoon Kim Project3	St: 23694627
+
+  ---- Run Part1 : Non-preemptive Round Robin ----
+
+	Time		Process
+	0 		 2 
+	10 		 2 
+	20 		 3 
+	30 		 3 
+	40 		 4 
+	50 		 4 
+	60 		 5 
+	65 		 6 
+	75 		 6 
+	80 		 1 
+	90 		 1 
+	95 		 7 
+	105 		 9 
+	115 		 9 
+	120 		 10 
+	130 		 10 
+	135 		 8 
+	145 		 8 
+	150  		 8   Finish processing
+
+	Process 	Wait Time
+	1 		 80 
+	2 		 0 
+	3 		 0 
+	4 		 15 
+	5 		 15 
+	6 		 10 
+	7 		 25 
+	8 		 35 
+	9 		 0 
+	10 		 5 
+
+  ---- Run Part2 : Preemptive Round Robin ----
+
+	Time		Process
+	0 		 2 
+	10 		 2 
+	20 		 3 
+	30 		 4 
+	40 		 3 
+	50 		 4 
+	60 		 5 
+	65 		 6 
+	75 		 6 
+	80 		 1 
+	90 		 1 
+	95 		 7 
+	105 		 9 
+	115 		 10 
+	125 		 9 
+	130 		 10 
+	135 		 8 
+	145 		 8 
+	150  		 8   Finish processing
+
+	Process 	Wait Time
+	1 		 80 
+	2 		 0 
+	3 		 10 
+	4 		 15 
+	5 		 15 
+	6 		 10 
+	7 		 25 
+	8 		 35 
+	9 		 10 
+	10 		 5 
+
+	End. 
