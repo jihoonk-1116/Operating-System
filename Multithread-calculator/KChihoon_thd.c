@@ -25,7 +25,7 @@ int *my_parser(int index, int s, int e);
 long int *sums; //Shared int array for part2
 long int sum;   //Shared int for part1
 
-FILE *fp;       //Global file pointer to log print out.
+FILE *fp;       //Global file pointer to log output.
 
 struct sum_struct{          //Part 3 uses structure to store data for summing. 
     long int limit;         //Each structure has upper bound(limit), start point and summing result and index. 
