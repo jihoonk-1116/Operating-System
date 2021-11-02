@@ -78,7 +78,7 @@ int main(int argc, const char *argv[]){ //cpfile.exe, srcname, tgtname, tgt2name
         fprintf(stderr, "Fork Falied"); 
         return 1;
     }
-    else if (pid == 0){ /* The child process does below code up to code line 85.
+    else if (pid == 0){ /* The child process is being worked with the below code up to code line 85.
          The system call of 'execlp()' executes cpfile.exe in this path:./cpfile.exe
          The call has the return value of -1 only if the call to execlp is unsuccessful. 
          The below of the code line 82 will not be run since the call does not return anything when it is successful to run. 
@@ -88,7 +88,7 @@ int main(int argc, const char *argv[]){ //cpfile.exe, srcname, tgtname, tgt2name
         fprintf(stderr, "execlp Falied %d", ret); //When execlp() is unsuccessful, the child process prints this sentence out.
         return 2; //The child process is terminated. 
     }
-    else{           //The parent process does below code.
+    else{           //The parent process is being worked with below code.
         wait(NULL); //It waits until the child process that was created by fork() ends.
         printf("Child complete\n"); //When the status of the child process is changed, the parent process prints this sentence out.
     }
