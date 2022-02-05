@@ -9,4 +9,4 @@ Used total more than 100 children and grandchildren thread to calculate huge sum
 ## Project3 : Round-Robin Process Scheduler
 Priority processing, Implemented Insertion sort Linked list
 ## Project4 : Memory Allocator
-Worstfit
+Worstfit. Find the biggest avaliable memory space to allocate a task.
